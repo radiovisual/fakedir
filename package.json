@@ -28,6 +28,7 @@
     "directory",
     "empty",
     "files",
+    "folder",
     "cli",
     "cli-app"
   ],
