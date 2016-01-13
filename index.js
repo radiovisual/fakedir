@@ -22,12 +22,12 @@ function init(args, options) {
 
 	var files = fs.readdirSync(fullpath);
 
-	if (options.version || options.v){
+	if (options.version || options.v) {
 		console.log(pkg.version);
 		process.exit();
 	}
 
-	if (options.help || options.h){
+	if (options.help || options.h) {
 		showHelp();
 		process.exit();
 	}
@@ -49,7 +49,7 @@ function init(args, options) {
  * Pretty-print fakedir help information
  *
  */
-function showHelp(){
+function showHelp() {
 	console.log(multiline(function () {
 /*
 

@@ -14,7 +14,7 @@ $ npm install -g fakedir
 
 ## Usage
 
-Run the `fakedir` command at the terminal you 
+Run the `fakedir` command at the terminal within the directory you want to snapshot 
 
 ```
 $ cd dir/to/snapshot/
