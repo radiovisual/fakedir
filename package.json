@@ -1,0 +1,43 @@
+{
+  "name": "fakedir",
+  "version": "1.0.0",
+  "description": "Create a super-shallow snapshot of your working directory with ~0-btye files",
+  "license": "MIT",
+  "repository": "radiovisual/fakedir",
+  "author": {
+    "name": "Michael Wuergler",
+    "email": "wuergler@gmail.com",
+    "url": "numetriclabs.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "fakedir": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "snapshot",
+    "copy",
+    "directory",
+    "empty",
+    "files",
+    "cli",
+    "cli-app"
+  ],
+  "dependencies": {
+    "meow": "^3.6.0",
+    "mkdirp": "^0.5.1",
+    "node-mkdirp": "0.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "xo": "^0.12.1"
+  }
+}
