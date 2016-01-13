@@ -56,11 +56,11 @@ function showHelp() {
 Create a super-shallow archive snapshot of your working directory with ~0-btye files.
 
 Commands
-  fakedir			create a fake dir archive or directory
+  fakedir           create a fakedir directory
 
 Options
-  -h, --help		Show this help message
-  -v, --version		Show the current fakedir version
+  -h, --help        Show this help message
+  -v, --version     Show the current fakedir version
 
 */
 	}));
