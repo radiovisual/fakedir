@@ -1,4 +1,4 @@
-# fakedir [![Build Status](https://travis-ci.org/radiovisual/fakedir.svg?branch=master)](https://travis-ci.org/radiovisual/fakedir)
+# fakedir 
 
 > Create a super-shallow snapshot of your working directory with ~0-btye files
 
@@ -14,13 +14,16 @@ $ npm install -g fakedir
 
 ## Usage
 
-Run the `fakedir` at the command prompt
+Run the `fakedir` command at the terminal you 
 
-```js
+```
+$ cd dir/to/snapshot/
 $ fakedir
 ```
 
-Now you have a copy of your directory with name-only (empty) files in it. *Amaze!*
+Now you have a copy of your directory with name-only (empty) files in it. **Amaze!** :open_mouth:
+
+**Note:** `fakedir` directories follow this naming convention: `fakedir_<name of working directory>`. This removes the confusion about the empty-file (no-data) snapshot of your directory and the real thing.
 
 ## License
 

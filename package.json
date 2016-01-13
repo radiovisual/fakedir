@@ -33,8 +33,10 @@
     "cli-app"
   ],
   "dependencies": {
-    "meow": "^3.6.0",
+    "get-stdin": "^5.0.1",
+    "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
+    "multiline": "^1.0.2",
     "node-mkdirp": "0.0.1"
   },
   "devDependencies": {
