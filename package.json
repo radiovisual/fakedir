@@ -1,7 +1,7 @@
 {
   "name": "fakedir",
-  "version": "1.0.0",
-  "description": "Create a super-shallow snapshot of your working directory with ~0-btye files",
+  "version": "1.0.1",
+  "description": "Create a super-shallow snapshot of your working directory with ~0-byte files",
   "license": "MIT",
   "repository": "radiovisual/fakedir",
   "author": {
@@ -29,6 +29,10 @@
     "empty",
     "files",
     "folder",
+    "fakedir",
+    "fake",
+    "shallow",
+    "structure",
     "cli",
     "cli-app"
   ],
